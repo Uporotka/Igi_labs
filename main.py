@@ -38,3 +38,9 @@ operation = checkString(input("Enter operation(string like “add”, “sub”,
 print("result: ", arithmetic_operation(first_number,second_number,operation))
 print()
 
+
+lis = [4,99,5,2,'444', False]
+print("original list: ", lis)
+lis  = [x for x in lis if not int(x) % 2]
+print("edited list: ", lis)
+
